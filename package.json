@@ -1,0 +1,28 @@
+{
+  "name": "sql_employee_tracker",
+  "version": "1.0.0",
+  "description": "SQL Employee Tracker that uses CLI",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustindHolderman/SQL_Employee_Tracker.git"
+  },
+  "author": "Justin Holderman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustindHolderman/SQL_Employee_Tracker/issues"
+  },
+  "homepage": "https://github.com/JustindHolderman/SQL_Employee_Tracker#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.2.4",
+    "pg": "^8.11.5",
+    "cli-table3": "^0.6.5"
+  }
+}
