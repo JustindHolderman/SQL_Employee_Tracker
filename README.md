@@ -1,7 +1,5 @@
   > # SQL_Employee_Tracker
 
-  > 
-
   > ## Table of Contents
 
   1. [Description:](#description)
