@@ -1,8 +1,8 @@
--- delete existing company_info database and create a new one
-DROP DATABASE IF EXISTS company_info;
-CREATE DATABASE company_info;
+-- delete existing employee database and create a new one
+DROP DATABASE IF EXISTS employee_db;
+CREATE DATABASE employee_db;
 
--- connect to the company_info database
+-- connect to the employee database
 CREATE TABLE department (
     id SERIAL PRIMARY KEY,
     name VARCHAR(30) UNIQUE NOT NULL

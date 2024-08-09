@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,9 @@
   },
   "homepage": "https://github.com/JustindHolderman/SQL_Employee_Tracker#readme",
   "dependencies": {
+    "cli-table3": "^0.6.5",
     "dotenv": "^16.4.5",
     "inquirer": "^8.2.4",
-    "pg": "^8.11.5",
-    "cli-table3": "^0.6.5"
+    "pg": "^8.11.5"
   }
 }
